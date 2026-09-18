@@ -78,6 +78,35 @@ END
 Each stage updates a shared recruitment state, making the workflow explicit, modular, and easy to extend.
 
 ---
+## 🏗️ System Architecture
+
+The system uses a multi-agent LangGraph workflow to transform a candidate profile into ranked job opportunities through semantic retrieval, LLM-based matching, and hybrid ranking.
+
+![AI Recruitment Agent Architecture](assets/architecture-diagram.png)
+
+### 🔄 Recruitment Pipeline
+
+**Candidate Profile → Query Builder → RAG Retrieval → LLM Matching → Hybrid Ranking → Ranked Job Opportunities**
+
+The architecture combines:
+
+- **LangGraph** for multi-agent workflow orchestration
+- **ChromaDB** for vector search and RAG retrieval
+- **LLM** for candidate-job reasoning and matching
+- **Hybrid Ranking** for combining semantic and matching signals
+- **SQLite** for structured job storage
+- **FastAPI** for production-ready API endpoints
+- **Evaluation Framework** for retrieval and recommendation metrics
+- **Pytest** for automated unit and integration testing
+
+---
+
+## 🚀 API
+
+The recruitment workflow is exposed through a FastAPI REST API and includes interactive OpenAPI/Swagger documentation.
+
+![FastAPI Swagger UI](assets/recruitment-api-swagger.png)
+---
 
 ## ✨ Key Features
 
