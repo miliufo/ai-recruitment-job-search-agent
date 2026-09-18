@@ -1,0 +1,91 @@
+{
+  "evaluation_summary": {
+    "generated_at": "2026-09-18T13:35:03.095303+00:00",
+    "cases_total": 4,
+    "cases_successful": 4,
+    "cases_failed": 0
+  },
+  "metrics": {
+    "mean_recall_at_3": 1.0,
+    "hit_rate_at_1": 0.75,
+    "mean_reciprocal_rank": 0.875,
+    "recommendation_accuracy": 1.0
+  },
+  "results": [
+    {
+      "case_id": "EVAL-001",
+      "name": "Strong AI Agent Candidate",
+      "candidate_id": "EVAL-CAND-001",
+      "predicted_job_ids": [
+        "JOB-002",
+        "JOB-001",
+        "JOB-003",
+        "JOB-006",
+        "JOB-005"
+      ],
+      "recall_at_3": 1.0,
+      "hit_at_1": 1.0,
+      "reciprocal_rank": 1.0,
+      "recommendation_accuracy": 1.0,
+      "jobs_retrieved": 5,
+      "jobs_evaluated": 5,
+      "failed_matches": 0
+    },
+    {
+      "case_id": "EVAL-002",
+      "name": "LLM Application Candidate",
+      "candidate_id": "EVAL-CAND-002",
+      "predicted_job_ids": [
+        "JOB-001",
+        "JOB-005",
+        "JOB-003",
+        "JOB-006",
+        "JOB-002"
+      ],
+      "recall_at_3": 1.0,
+      "hit_at_1": 0.0,
+      "reciprocal_rank": 0.5,
+      "recommendation_accuracy": 1.0,
+      "jobs_retrieved": 5,
+      "jobs_evaluated": 5,
+      "failed_matches": 0
+    },
+    {
+      "case_id": "EVAL-003",
+      "name": "Machine Learning Candidate",
+      "candidate_id": "EVAL-CAND-003",
+      "predicted_job_ids": [
+        "JOB-004",
+        "JOB-001",
+        "JOB-002",
+        "JOB-003"
+      ],
+      "recall_at_3": 1.0,
+      "hit_at_1": 1.0,
+      "reciprocal_rank": 1.0,
+      "recommendation_accuracy": 1.0,
+      "jobs_retrieved": 5,
+      "jobs_evaluated": 4,
+      "failed_matches": 1
+    },
+    {
+      "case_id": "EVAL-004",
+      "name": "Backend Candidate",
+      "candidate_id": "EVAL-CAND-004",
+      "predicted_job_ids": [
+        "JOB-007",
+        "JOB-005",
+        "JOB-001",
+        "JOB-002",
+        "JOB-004"
+      ],
+      "recall_at_3": 1.0,
+      "hit_at_1": 1.0,
+      "reciprocal_rank": 1.0,
+      "recommendation_accuracy": 1.0,
+      "jobs_retrieved": 5,
+      "jobs_evaluated": 5,
+      "failed_matches": 0
+    }
+  ]
+}

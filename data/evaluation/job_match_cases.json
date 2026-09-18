@@ -1,0 +1,190 @@
+[
+  {
+    "case_id": "EVAL-001",
+    "name": "Strong AI Agent Candidate",
+    "candidate": {
+      "candidate_id": "EVAL-CAND-001",
+      "name": "AI Agent Candidate",
+      "headline": "AI Engineer | Generative AI | AI Agents",
+      "location": "Europe",
+      "summary": "Engineer building production AI agents and RAG applications.",
+      "skills": [
+        "Python",
+        "Generative AI",
+        "AI Agents",
+        "RAG",
+        "LLMs",
+        "LangGraph",
+        "Azure"
+      ],
+      "work_experience": [
+        {
+          "company": "AI Systems Lab",
+          "role": "AI Engineer",
+          "description": "Built multi-agent workflows and retrieval augmented generation systems.",
+          "skills": [
+            "Python",
+            "LLMs",
+            "RAG",
+            "AI Agents"
+          ]
+        }
+      ],
+      "target_roles": [
+        "AI Engineer",
+        "Generative AI Engineer",
+        "AI Agent Engineer"
+      ]
+    },
+    "expected_relevant_jobs": [
+      "JOB-001",
+      "JOB-002",
+      "JOB-003"
+    ],
+    "expected_top_jobs": [
+      "JOB-002",
+      "JOB-001",
+      "JOB-003"
+    ],
+    "expected_recommendations": {
+      "JOB-001": ["apply", "strong_apply"],
+      "JOB-002": ["apply", "strong_apply"],
+      "JOB-003": ["apply", "strong_apply"]
+    }
+  },
+
+  {
+    "case_id": "EVAL-002",
+    "name": "LLM Application Candidate",
+    "candidate": {
+      "candidate_id": "EVAL-CAND-002",
+      "name": "LLM Application Candidate",
+      "headline": "LLM Application Engineer",
+      "location": "Europe",
+      "summary": "Engineer focused on LLM applications, APIs and retrieval systems.",
+      "skills": [
+        "Python",
+        "LLMs",
+        "RAG",
+        "FastAPI",
+        "Docker"
+      ],
+      "work_experience": [
+        {
+          "company": "Language Systems",
+          "role": "LLM Engineer",
+          "description": "Developed LLM applications, RAG pipelines and backend APIs.",
+          "skills": [
+            "Python",
+            "LLMs",
+            "RAG",
+            "FastAPI"
+          ]
+        }
+      ],
+      "target_roles": [
+        "LLM Application Engineer",
+        "Generative AI Engineer"
+      ]
+    },
+    "expected_relevant_jobs": [
+      "JOB-005",
+      "JOB-001",
+      "JOB-003"
+    ],
+    "expected_top_jobs": [
+      "JOB-005"
+    ],
+    "expected_recommendations": {
+      "JOB-005": ["apply", "strong_apply"]
+    }
+  },
+
+  {
+    "case_id": "EVAL-003",
+    "name": "Machine Learning Candidate",
+    "candidate": {
+      "candidate_id": "EVAL-CAND-003",
+      "name": "ML Candidate",
+      "headline": "Machine Learning Engineer",
+      "location": "Vienna, Austria",
+      "summary": "Machine learning engineer working with Python and production ML systems.",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "scikit-learn",
+        "Pandas",
+        "Docker"
+      ],
+      "work_experience": [
+        {
+          "company": "ML Research",
+          "role": "Machine Learning Engineer",
+          "description": "Built and deployed machine learning models.",
+          "skills": [
+            "Python",
+            "Machine Learning",
+            "scikit-learn"
+          ]
+        }
+      ],
+      "target_roles": [
+        "Machine Learning Engineer"
+      ]
+    },
+    "expected_relevant_jobs": [
+      "JOB-004"
+    ],
+    "expected_top_jobs": [
+      "JOB-004"
+    ],
+    "expected_recommendations": {
+      "JOB-004": ["apply", "strong_apply"]
+    }
+  },
+
+  {
+    "case_id": "EVAL-004",
+    "name": "Backend Candidate",
+    "candidate": {
+      "candidate_id": "EVAL-CAND-004",
+      "name": "Backend Candidate",
+      "headline": "Senior Backend Engineer",
+      "location": "Europe",
+      "summary": "Backend engineer building APIs and production services.",
+      "skills": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "SQL",
+        "PostgreSQL"
+      ],
+      "work_experience": [
+        {
+          "company": "Backend Systems",
+          "role": "Backend Engineer",
+          "description": "Designed APIs and scalable backend services.",
+          "skills": [
+            "Python",
+            "FastAPI",
+            "Docker",
+            "SQL"
+          ]
+        }
+      ],
+      "target_roles": [
+        "Senior Backend Engineer",
+        "Backend Engineer"
+      ]
+    },
+    "expected_relevant_jobs": [
+      "JOB-007"
+    ],
+    "expected_top_jobs": [
+      "JOB-007"
+    ],
+    "expected_recommendations": {
+      "JOB-007": ["apply", "strong_apply"]
+    }
+  }
+]
